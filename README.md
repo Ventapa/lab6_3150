@@ -5,9 +5,9 @@
 
 ```
 # Open "Developer PowerShell" or MinGW shell
-build.bat           # or: powershell -ExecutionPolicy Bypass -File build.ps1
+./build.bat           # or: powershell -ExecutionPolicy Bypass -File build.ps1
 tokenizer_tests.exe  # run unit tests
-tokenizer_app.exe data\sample.txt
+tokenizer_app.exe    # data\sample.txt
 ```
 
 Set the `CXX` environment variable to choose a different compiler:
